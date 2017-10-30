@@ -104,7 +104,6 @@ public class Simulator {
 	}
 	
 	public void close() { 
-		System.out.println(atm.getAmount());
 		pwLog.close();
 	}
 }
